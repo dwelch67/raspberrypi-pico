@@ -1,0 +1,11 @@
+
+
+.program pio
+loop:
+    pull block
+    out pins, 12
+    pull block
+    out pindirs, 12
+    pull block
+    out pins, 12 [30]
+    jmp loop

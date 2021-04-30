@@ -1,0 +1,3 @@
+
+Same as pio03, but uses a variable/register to count to 16 rather
+than unrolled...

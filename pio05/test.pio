@@ -1,0 +1,10 @@
+
+.program pio
+    set pindirs, 1
+loop:
+    set x, 16
+    pull block
+inner:
+    out pins,1
+    jmp x-- inner
+    jmp loop

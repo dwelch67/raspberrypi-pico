@@ -1,0 +1,2 @@
+
+The timer is running

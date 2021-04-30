@@ -1,0 +1,11 @@
+//pc 4
+//have_label[1] (loop)
+//need_label[3] (loop)
+
+
+PUT32(PIO0_INSTR_MEM0_RW,0xE083);
+PUT32(PIO0_INSTR_MEM1_RW,0x80A0);
+PUT32(PIO0_INSTR_MEM2_RW,0x6002);
+PUT32(PIO0_INSTR_MEM3_RW,0x0001);
+
+
